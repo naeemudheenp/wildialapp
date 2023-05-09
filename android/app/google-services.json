@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966099115019",
+    "project_id": "wildial",
+    "storage_bucket": "wildial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966099115019:android:c938c9f8bebe7b8ebcfb0e",
+        "android_client_info": {
+          "package_name": "com.wildial.wildial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966099115019-oo8n1o78jjucms77a0o2teqissjo9dis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZYikGGcLgKjkwdT3mYLMyNbK37WJhvHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966099115019-oo8n1o78jjucms77a0o2teqissjo9dis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
