@@ -41,6 +41,10 @@ dependencies:
   cloud_firestore:
   firebase_storage:
   firebase_messaging:
+  fluttertoast:
+  background_fetch: 
+  flutter_isolate:
+  workmanager:
   awesome_notifications: any # Any attribute updates automatically your source to the last version
 
 
