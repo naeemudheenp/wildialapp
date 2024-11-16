@@ -1,27 +1,57 @@
-# WildialApp - Wildlife Intrusion Detection Mobile Application  
+# Wildlife Detection System using Arduino Uno and YOLO Algorithm
 
-A Flutter-based mobile application that integrates with the [Wildlife Detection Python Module](https://github.com/naeemudheenp/WIldlife-detection) to detect wildlife intrusions and send live warnings, ensuring timely alerts for enhanced safety and conservation efforts.
+## Project Overview
 
-## Description  
+This project aims to develop a wildlife detection system using an **Arduino Uno** integrated with the **WildialApp**. The system employs the **YOLO** algorithm for real-time wildlife detection through a camera module. Once wildlife is detected, the system triggers a warning to alert nearby individuals, helping in the protection and conservation of wildlife.
 
-**WildialApp** is a comprehensive solution for detecting wildlife intrusions in real-time. The application serves as the mobile interface for the Python-based [Wildlife Detection Module](https://github.com/naeemudheenp/WIldlife-detection), enabling seamless communication and live alerts for potential intrusions.  
+## Key Features
 
-### Features  
-- **Integration with Python Module**: Connects directly with the Wildlife Detection Python module for real-time data processing.  
-- **Live Alerts**: Sends instant warnings to users when wildlife intrusion is detected.  
-- **User-Friendly Interface**: Provides an intuitive interface for monitoring and managing alerts.  
-- **Cross-Platform Support**: Built with Flutter, ensuring compatibility with both Android and iOS devices.  
+- **Wildlife Detection**: Uses YOLO algorithm for accurate real-time detection of wildlife.
+- **Camera Integration**: Utilizes a camera module to capture images/videos for processing.
+- **Arduino Uno**: Acts as the main controller to manage input/output and communicate with the camera and detection module.
+- **Mobile App Integration**: Sends notifications and data to a mobile app (WildialApp) for remote monitoring.
 
-### How It Works  
-1. The Python module processes live data (e.g., camera feeds or sensor inputs) to detect wildlife intrusions.  
-2. Once detected, the information is sent to the **WildialApp**, which displays the alert to the user.  
-3. Users receive a live warning notification, enabling timely action to mitigate risks.  
+## Components Used
 
-This project is ideal for wildlife conservationists, forest departments, and individuals living in areas prone to wildlife intrusions. By combining the power of machine learning and mobile technology, **WildialApp** ensures safety and conservation go hand in hand.  
+- **Arduino Uno**: The central processing unit of the system.
+- **Camera Module : For capturing live footage.
+- **YOLO Algorithm**: For object detection and wildlife identification.
+- **WildialApp**: A mobile application integrated with the system for alerts and real-time monitoring.
 
-### Getting Started  
-- Clone the repository.  
-- Install dependencies using `flutter pub get`.  
-- Follow the integration guide to connect with the [Wildlife Detection Python Module](https://github.com/naeemudheenp/WIldlife-detection).  
 
-Contribute to making our environment safer for both humans and wildlife!  
+## How it Works
+
+1. The camera captures video feeds, which are processed using the YOLO algorithm to detect wildlife.
+2. The Arduino Uno handles communication between the camera module and the detection algorithm.
+3. Once wildlife is detected, an alert is sent to the **WildialApp**.
+
+
+## Requirements
+
+- **Arduino Uno** board
+- **Camera Module** 
+- **YOLO model** for object detection
+- **WildialApp** for mobile notification integration
+
+
+## Setup Instructions
+
+1. **Install Required Libraries**:
+   - Install the YOLO object detection model on your system.
+   - Install necessary Arduino libraries to control the camera module.
+
+2. **Connect Hardware**:
+   - Connect the camera module to the Arduino Uno.
+
+
+3. **Upload Code to Arduino**:
+   - Upload the provided Arduino code to your Arduino Uno.
+
+4. **Run the YOLO Model**:
+   - Ensure the YOLO model is running and connected to the system for real-time detection.
+
+5. **Mobile App Integration**:
+   - Follow the integration steps for the **WildialApp** to receive notifications.
+
+
+
